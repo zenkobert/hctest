@@ -3,9 +3,6 @@ package com.zezenk.hctest.exception;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-/**
- * Created by jt on 7/13/17.
- */
 @ResponseStatus(HttpStatus.BAD_REQUEST)
 public class ParsingException extends RuntimeException {
 
